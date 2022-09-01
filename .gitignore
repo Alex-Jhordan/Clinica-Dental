@@ -1,0 +1,17 @@
+# Avoid loading css files!
+*.css
+
+# Avoid loading css.map files!
+*.css.map
+
+# except reduced.css
+!style.css
+
+# Avoid loading the node_modules folder!
+node_modules
+
+# Avoid loading the scss folder!
+scss
+
+# Avoid loading .json files!
+*.json
