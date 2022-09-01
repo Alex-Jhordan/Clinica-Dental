@@ -1,11 +1,20 @@
+# Avoid loading the bootstrap folder!
+bootstrap
+
 # Avoid loading css files!
 *.css
+
+# Avoid loading min.css files!
+*.min.css
 
 # Avoid loading css.map files!
 *.css.map
 
+# Avoid loading min.css.map files!
+*.min.css.map
+
 # except reduced.css
-!style.css
+!style.min.css
 
 # Avoid loading the node_modules folder!
 node_modules
